@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/goit-react-hw-05-movies/static/css/main.5cf9f035.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.27ee84fc.js",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.e6b6905c.js",
     "static/js/815.3c5225f3.chunk.js": "/goit-react-hw-05-movies/static/js/815.3c5225f3.chunk.js",
     "static/js/6.ed0c9070.chunk.js": "/goit-react-hw-05-movies/static/js/6.ed0c9070.chunk.js",
     "static/js/439.5d1fe88c.chunk.js": "/goit-react-hw-05-movies/static/js/439.5d1fe88c.chunk.js",
-    "static/js/29.10ceab91.chunk.js": "/goit-react-hw-05-movies/static/js/29.10ceab91.chunk.js",
-    "static/js/697.06f96a19.chunk.js": "/goit-react-hw-05-movies/static/js/697.06f96a19.chunk.js",
+    "static/js/29.e68400d7.chunk.js": "/goit-react-hw-05-movies/static/js/29.e68400d7.chunk.js",
+    "static/js/697.b3f3232e.chunk.js": "/goit-react-hw-05-movies/static/js/697.b3f3232e.chunk.js",
     "index.html": "/goit-react-hw-05-movies/index.html",
     "main.5cf9f035.css.map": "/goit-react-hw-05-movies/static/css/main.5cf9f035.css.map",
-    "main.27ee84fc.js.map": "/goit-react-hw-05-movies/static/js/main.27ee84fc.js.map",
+    "main.e6b6905c.js.map": "/goit-react-hw-05-movies/static/js/main.e6b6905c.js.map",
     "815.3c5225f3.chunk.js.map": "/goit-react-hw-05-movies/static/js/815.3c5225f3.chunk.js.map",
     "6.ed0c9070.chunk.js.map": "/goit-react-hw-05-movies/static/js/6.ed0c9070.chunk.js.map",
     "439.5d1fe88c.chunk.js.map": "/goit-react-hw-05-movies/static/js/439.5d1fe88c.chunk.js.map",
-    "29.10ceab91.chunk.js.map": "/goit-react-hw-05-movies/static/js/29.10ceab91.chunk.js.map",
-    "697.06f96a19.chunk.js.map": "/goit-react-hw-05-movies/static/js/697.06f96a19.chunk.js.map"
+    "29.e68400d7.chunk.js.map": "/goit-react-hw-05-movies/static/js/29.e68400d7.chunk.js.map",
+    "697.b3f3232e.chunk.js.map": "/goit-react-hw-05-movies/static/js/697.b3f3232e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf9f035.css",
-    "static/js/main.27ee84fc.js"
+    "static/js/main.e6b6905c.js"
   ]
 }
