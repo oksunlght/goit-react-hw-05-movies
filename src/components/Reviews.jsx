@@ -32,7 +32,7 @@ const Reviews = () => {
   return (
     <>
       {!isLoading ? (
-        <div>
+        <>
           {reviews.length !== 0 ? (
             <List>
               {reviews.map(({ id, author, content }) => {
@@ -48,7 +48,7 @@ const Reviews = () => {
           ) : (
             <NoReview>We don't have any reviews for this movie.</NoReview>
           )}
-        </div>
+        </>
       ) : (
         <Loader>
           <ThreeCircles

@@ -25,3 +25,7 @@ export const Loader = styled.div`
   margin-left: 20px;
   margin-top: 50px;
 `;
+
+export const NoCast = styled.p`
+  margin-left: 20px;
+`;

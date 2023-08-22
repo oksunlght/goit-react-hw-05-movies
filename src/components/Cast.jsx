@@ -2,7 +2,14 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchCast, setImageURL } from '../utils/fetch-api';
 import { ThreeCircles } from 'react-loader-spinner';
-import { Photo, CastName, CastList, CastItem, Loader } from './Cast.styled';
+import {
+  Photo,
+  CastName,
+  CastList,
+  CastItem,
+  Loader,
+  NoCast,
+} from './Cast.styled';
 
 const Cast = () => {
   const { movieId } = useParams();
@@ -24,22 +31,28 @@ const Cast = () => {
   return (
     <div>
       {!isLoading ? (
-        <CastList>
-          {cast.map(({ character, id, original_name, profile_path }) => {
-            return (
-              <CastItem key={id}>
-                <Photo
-                  src={profile_path && setImageURL(profile_path)}
-                  alt={original_name}
-                />
-                <div>
-                  <CastName>{original_name}</CastName>
-                  <CastName>Character: {character} </CastName>
-                </div>
-              </CastItem>
-            );
-          })}
-        </CastList>
+        <>
+          {cast.length !== 0 ? (
+            <CastList>
+              {cast.map(({ character, id, original_name, profile_path }) => {
+                return (
+                  <CastItem key={id}>
+                    <Photo
+                      src={profile_path && setImageURL(profile_path)}
+                      alt={original_name}
+                    />
+                    <div>
+                      <CastName>{original_name}</CastName>
+                      <CastName>Character: {character} </CastName>
+                    </div>
+                  </CastItem>
+                );
+              })}
+            </CastList>
+          ) : (
+            <NoCast>We don't have cast list for this movie.</NoCast>
+          )}
+        </>
       ) : (
         <Loader>
           <ThreeCircles
